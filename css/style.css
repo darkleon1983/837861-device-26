@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Gilroy Extrabold', Arial;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+
+  background-color: rgba(255, 255, 255, 1);
+}
+
+a {
+  text-decoration: none;
+}
+.main-navigation {
+  display: block;
+  width: 1160px;
+  /*background-color: rgba(247, 226, 150, 1);*/
+  background-image: url(../img/nav-background.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  list-style: none;
+}
+
+.user-navigation {
+  list-style: none;
+  font-weight: regular;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.interactive-navigation {
+  list-style: none;
+  font-weight: regular;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.site-navigation {
+  list-style: none;
+  font-weight: regular;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color:  rgba(0, 0, 0, 1);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.interactive-navigation a:focus,
+.interactive-navigation a:hover,
+.user-navigation a:focus,
+.user-navigation a:hover   {
+  color: rgba(99, 90, 60, 1);
+}
+.site-navigation a:active {
+  color: rgba(105, 105, 105, 1);
+}
+
+.transport-companies li {
+  list-style: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+@font-face {
+  font-family: 'Gilroy Extrabold';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gilroyextrabold'),
+       url('../fonts/gilroyextrabold.woff2') format('woff2'),
+       url('../fonts/gilroyextrabold.woff') format('woff'),
+       url('../fonts/Gilroyextrabold.ttf') format('ttf');
+}
