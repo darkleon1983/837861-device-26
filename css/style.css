@@ -25,6 +25,7 @@ a {
 }
 
 .user-navigation {
+  text-transform: none;
   list-style: none;
   font-family: 'OpenSans', Arial;
   font-weight: 300;
@@ -200,6 +201,53 @@ footer li {
 
 .popup {
   display: none;
+}
+
+/*Индивидуальные стили каталога*/
+.catalog-navigation {
+  list-style: none;
+  font-family: 'OpenSans', Arial;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.properties {
+  text-transform: none;
+  list-style: none;
+  font-family: 'OpenSans', Arial;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.catalog-item {
+  text-transform: none;
+  list-style: none;
+  font-family: 'OpenSans', Arial;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.catalog-item a {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Gilroy', Arial;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.page-list a{
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Gilroy', Arial;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.page-list li {
+  list-style: none;
 }
 
 @font-face {
