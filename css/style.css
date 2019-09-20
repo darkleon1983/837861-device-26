@@ -198,6 +198,10 @@ footer li {
   color: rgba(255, 255, 255, 1);
 }
 
+.popup {
+  display: none;
+}
+
 @font-face {
   font-family: 'Gilroy';
   font-style: extrabold;
