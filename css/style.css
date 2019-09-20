@@ -171,6 +171,33 @@ a {
   color: rgba(0, 0, 0, 1);
 }
 
+footer li {
+  list-style: none;
+}
+
+.footer-container {
+  font-family: 'OpenSans', Arial;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 30px;
+  background-image: url(../img/footer-background.png);
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-navigation {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Gilroy', Arial;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-navigation a,
+.footer-user a,
+.footer-links a {
+  color: rgba(255, 255, 255, 1);
+}
+
 @font-face {
   font-family: 'Gilroy';
   font-style: extrabold;
