@@ -187,6 +187,10 @@ a {
   line-height: 24px;
 }
 
+.info-container {
+  display: flex;
+}
+
 .info {
   text-transform: none;
 }
@@ -203,6 +207,16 @@ a {
   font-weight: 900;
   line-height: 48px;
   font-size: 47px;
+}
+
+.info-aboutus {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-contacts {
+  display: flex;
+  flex-direction: column;
 }
 
 .transport-companies li {
