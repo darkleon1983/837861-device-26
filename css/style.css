@@ -1,5 +1,6 @@
 body {
   padding: 0;
+  padding: 0 20px;
   margin: 0;
   font-family: 'Gilroy', Arial;
   font-size: 18px;
@@ -17,11 +18,17 @@ a {
 .main-navigation {
   display: block;
   width: 1160px;
+  min-height: 300px;
+  margin: 0;
+  padding: 0;
   /*background-color: rgba(247, 226, 150, 1);*/
   background-image: url(../img/nav-background.png);
   background-position: top center;
   background-repeat: no-repeat;
   list-style: none;
+  display: flex;
+  outline: 1px solid red;
+  justify-content: space-between;
 }
 
 .user-navigation {
@@ -31,11 +38,36 @@ a {
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
+  display: flex;
+  justify-content: space-around;
+  outline: 1px solid green;
+  margin: 0;
+  padding: 0;
 }
 
 .interactive-navigation {
+  margin-left: 60px;
+  margin-top: 50px;
+  width: 240px;
+  height: 85px;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+
+.user-site-container {
+  margin-right: 60px;
+  margin-top: 50px;
+  min-width: 500px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  outline: 5px solid violet;
+}
+
 
 .search-form {
   font-family: 'OpenSans', Arial;
@@ -45,6 +77,7 @@ a {
 }
 
 .site-button {
+  color:  rgba(0, 0, 0, 1);
   text-transform: uppercase;
   font-family: 'Gilroy';
   font-weight: 600;
@@ -58,6 +91,11 @@ a {
   font-weight: 900;
   font-size: 18px;
   line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
 }
 
 .site-navigation a,
