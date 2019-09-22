@@ -2,7 +2,7 @@ body {
   padding: 0;
   padding: 0 20px;
   margin: 0;
-  font-family: 'Gilroy', Arial;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -22,7 +22,7 @@ a {
   margin: 0;
   padding: 0;
   /*background-color: rgba(247, 226, 150, 1);*/
-  background-image: url(../img/nav-background.png);
+  background-image: url("../img/nav-background.png");
   background-position: top center;
   background-repeat: no-repeat;
   list-style: none;
@@ -34,7 +34,7 @@ a {
 .user-navigation {
   text-transform: none;
   list-style: none;
-  font-family: 'OpenSans', Arial;
+  font-family: 'OpenSans', Arial, sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -70,7 +70,7 @@ a {
 
 
 .search-form {
-  font-family: 'OpenSans', Arial;
+  font-family: 'OpenSans', Arial, sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -79,7 +79,7 @@ a {
 .site-button {
   color:  rgba(0, 0, 0, 1);
   text-transform: uppercase;
-  font-family: 'Gilroy';
+  font-family: 'Gilroy', Arial, sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
@@ -87,7 +87,7 @@ a {
 
 .site-navigation {
   list-style: none;
-  font-family: 'Gilroy', Arial;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-weight: 900;
   font-size: 18px;
   line-height: 24px;
@@ -116,20 +116,20 @@ a {
 }
 
 .galery dt {
-  font-family: 'Gilroy', Arial;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-weight: 300;
   font-size: 36px;
   line-height: 48px;
 }
 
 .galery dl {
-  font-family: 'OpenSans', Arial;
+  font-family: 'OpenSans', Arial, sans-serif;
   font-weight: 300;
   font-size: 13px;
   line-height: 20px;
 }
 
-.lozung {
+.slogan {
   font-weight: extrabold;
   line-height: 56px;
   font-size: 47px;
@@ -141,16 +141,20 @@ a {
 }
 
 .slide-description {
-  font-family: 'OpenSans', Arial;
+  font-family: 'OpenSans', Arial, sans-serif;
   font-weight: 300;
   line-height: 30px;
   font-size: 15px;
   color: rgba(70, 70, 70, 1);
 }
 
+.categories {
+  outline: 10px solid yellow;
+}
+
 .categories a {
   color: rgba(0, 0, 0, 1);
-  font-family: 'Gilroy', Arial;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-weight: 900;
   font-size: 18px;
   line-height: 24px;
@@ -158,14 +162,14 @@ a {
 
 .serveces-container {
   /*background-color: rgba(229, 229, 229, 1);*/
-  background-image: url(../img/services-background.png);
+  background-image: url("../img/services-background.png");
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .services {
   text-transform: none;
-  font-family: 'OpenSams', 'Arial';
+  font-family: 'OpenSams', 'Arial', sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -173,7 +177,7 @@ a {
 
 .services h3 {
   text-transform: none;
-  font-family: 'Gilroy', 'Arial';
+  font-family: 'Gilroy', 'Arial', sans-serif;
   font-weight: 900;
   font-size: 47px;
   line-height:48px;
@@ -181,7 +185,7 @@ a {
 
 .service-buttons button {
   text-transform: uppercase;
-  font-family: 'Gilroy', Arial;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-weight: 900;
   font-size: 18px;
   line-height: 24px;
@@ -229,17 +233,17 @@ footer li {
 }
 
 .footer-container {
-  font-family: 'OpenSans', Arial;
+  font-family: 'OpenSans', Arial, sans-serif;
   font-weight: 300;
   font-size: 13px;
   line-height: 30px;
-  background-image: url(../img/footer-background.png);
+  background-image: url("../img/footer-background.png");
   color: rgba(255, 255, 255, 1);
 }
 
 .footer-navigation {
   color: rgba(255, 255, 255, 1);
-  font-family: 'Gilroy', Arial;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-weight: 900;
   font-size: 18px;
   line-height: 24px;
@@ -258,7 +262,7 @@ footer li {
 /*Индивидуальные стили каталога*/
 .catalog-navigation {
   list-style: none;
-  font-family: 'OpenSans', Arial;
+  font-family: 'OpenSans', Arial, sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -267,7 +271,7 @@ footer li {
 .properties {
   text-transform: none;
   list-style: none;
-  font-family: 'OpenSans', Arial;
+  font-family: 'OpenSans', Arial, sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -276,7 +280,7 @@ footer li {
 .catalog-item {
   text-transform: none;
   list-style: none;
-  font-family: 'OpenSans', Arial;
+  font-family: 'OpenSans', Arial, sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -284,7 +288,7 @@ footer li {
 
 .catalog-item a {
   color: rgba(0, 0, 0, 1);
-  font-family: 'Gilroy', Arial;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-weight: 900;
   font-size: 18px;
   line-height: 24px;
@@ -292,7 +296,7 @@ footer li {
 
 .page-list a{
   color: rgba(0, 0, 0, 1);
-  font-family: 'Gilroy', Arial;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-weight: 900;
   font-size: 18px;
   line-height: 24px;
@@ -316,6 +320,7 @@ footer li {
   font-family: 'OpenSans';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: local('OpenSansLight'),
        url('../fonts/opensanslight.woff2') format('woff2'),
        url('../fonts/opensans.woff') format('woff2');
