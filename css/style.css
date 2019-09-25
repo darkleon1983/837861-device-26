@@ -15,11 +15,27 @@ body {
 a {
   text-decoration: none;
 }
+
+.main-header {
+  position: relative;
+}
+
+.header-logo {
+  position: absolute;
+  left: 60px;
+  top: -18px;
+}
+
+.header-form {
+  background-color: inherit;
+}
+
 .main-navigation {
   display: block;
   width: 1160px;
   min-height: 300px;
   margin: 0;
+  margin-top: 40px;
   padding: 0;
   /*background-color: rgba(247, 226, 150, 1);*/
   background-image: url("../img/nav-background.png");
@@ -66,6 +82,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   outline: 5px solid violet;
+  box-sizing: border-box;
 }
 
 
@@ -134,7 +151,7 @@ a {
 }
 
 .slogan {
-  font-weight: extrabold;
+  font-weight: 900;
   line-height: 56px;
   font-size: 47px;
   text-transform: none;
@@ -160,6 +177,10 @@ a {
   line-height: 24px;
 }
 
+.categories {
+  display: flex;
+}
+
 .serveces-container {
   /*background-color: rgba(229, 229, 229, 1);*/
   background-image: url("../img/services-background.png");
@@ -169,7 +190,7 @@ a {
 
 .services {
   text-transform: none;
-  font-family: 'OpenSams', 'Arial', sans-serif;
+  font-family: 'OpenSans', 'Arial', sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -340,6 +361,41 @@ footer li {
   line-height: 30px;
 }
 
+.catalog-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  /*outline: 1px  solid yellow;*/
+  Fbackground-color: rgba(235, 235, 235, 1);
+
+}
+.page-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+.filters-product-container {
+  display: flex;
+}
+.catalog-list {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  width: 760px;
+  padding-left: ;
+  /*outline: 1px  solid darkblue;*/
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  width: 468px;
+  /*outline: 1px  solid green;*/
+}
+
 .properties {
   text-transform: none;
   list-style: none;
@@ -356,6 +412,8 @@ footer li {
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .catalog-item a {
@@ -376,6 +434,23 @@ footer li {
 
 .page-list li {
   list-style: none;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 @font-face {
