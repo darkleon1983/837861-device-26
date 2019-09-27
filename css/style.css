@@ -43,7 +43,7 @@ a {
   background-repeat: no-repeat;
   list-style: none;
   display: flex;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   justify-content: space-between;
 }
 
@@ -56,7 +56,7 @@ a {
   line-height: 30px;
   display: flex;
   justify-content: space-around;
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
   margin: 0;
   padding: 0;
 }
@@ -81,7 +81,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  outline: 5px solid violet;
+  /*outline: 5px solid violet;*/
   box-sizing: border-box;
 }
 
@@ -272,7 +272,7 @@ footer li {
   width: 1320px;
   display: flex;
   justify-content: space-between;
-  outline: 2px solid firebrick;
+  /*outline: 2px solid firebrick;*/
 }
 
 .footer-navigation {
@@ -359,6 +359,7 @@ footer li {
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
+  margin-bottom: 50px;
 }
 
 .catalog-navigation {
@@ -366,7 +367,7 @@ footer li {
   justify-content: space-between;
   padding: 0 30px;
   /*outline: 1px  solid yellow;*/
-  Fbackground-color: rgba(235, 235, 235, 1);
+  background-color: rgba(235, 235, 235, 1);
 
 }
 .page-list {
@@ -379,20 +380,36 @@ footer li {
 .filters-product-container {
   display: flex;
 }
+
+.filters {
+  background-color: rgba(235, 235, 235, 1);
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.filters-button {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+
 .catalog-list {
   padding: 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; 
   width: 760px;
-  padding-left: ;
   /*outline: 1px  solid darkblue;*/
 }
 
 .main-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
   width: 468px;
+  padding: 0 70px;
   /*outline: 1px  solid green;*/
 }
 
