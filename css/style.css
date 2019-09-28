@@ -181,11 +181,19 @@ a {
   display: flex;
 }
 
-.serveces-container {
+.services-container {
+  margin-top: 180px;
   /*background-color: rgba(229, 229, 229, 1);*/
   background-image: url("../img/services-background.png");
   background-position: center;
   background-repeat: no-repeat;
+  /*outline: 1px solid yellow;*/
+}
+
+.description-container {
+  min-height: 288px;
+  padding-top: -100;
+  /*outline: 1px solid red;*/
 }
 
 .services {
@@ -194,6 +202,8 @@ a {
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .services h3 {
@@ -202,6 +212,8 @@ a {
   font-weight: 900;
   font-size: 47px;
   line-height:48px;
+  padding: 0;
+  margin: 0;
 }
 
 .service-buttons button {
@@ -210,6 +222,26 @@ a {
   font-weight: 900;
   font-size: 18px;
   line-height: 24px;
+}
+.service-buttons {
+  min-width: 280px;
+  /*outline: 1px solid magenta;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.service-item {
+  margin-top: -20px;
+}
+
+.delivery-svg {
+  /*outline: 1px solid magenta;*/
+}
+
+.delivery-button {
+  display: block;
+  margin-bottom: 33px;
 }
 
 .info-container {
@@ -382,7 +414,7 @@ footer li {
 }
 
 .filters {
-  background-color: rgba(235, 235, 235, 1);
+  background-color: rgba(239, 239, 239, 1);
   margin-right: 60px;
   display: flex;
   flex-direction: column;
