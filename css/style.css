@@ -264,6 +264,14 @@ S}
   margin-bottom: 33px;
 }
 
+.brands {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .info-container {
   display: flex;
 }
