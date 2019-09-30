@@ -193,7 +193,7 @@ a {
   display: flex;
   /*outline: 1px solid red;*/
   flex-direction: column;
-S}
+}
 
 .category-svg {
   background-color: rgba(247, 226, 150, 1);
@@ -255,9 +255,9 @@ S}
   margin-top: -20px;
 }
 
-.delivery-svg {
-  /*outline: 1px solid magenta;*/
-}
+/*.delivery-svg {
+  /*outline: 1px solid magenta;
+}*/
 
 .delivery-button {
   display: block;
