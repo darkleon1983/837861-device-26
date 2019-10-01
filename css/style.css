@@ -367,6 +367,12 @@ a {
   margin-bottom: 33px;
 }*/
 
+button {
+  display: inline-block;
+  border: none;
+  background: none;
+}
+
 .brands {
   width: 1000px;
   margin: 0 auto;
@@ -379,7 +385,7 @@ a {
   width: 1300px;
   display: flex;
   margin: 0 auto;
-  outline: 1px solid violet;
+  /*outline: 1px solid violet;*/
 }
 
 .info {
@@ -403,6 +409,7 @@ a {
 .info-aboutus {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .info-contacts {
@@ -423,6 +430,7 @@ footer li {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  margin-top: 50px;
   padding: 0;
   width: 1300px;
   font-family: 'OpenSans', Arial, sans-serif;
@@ -550,16 +558,28 @@ footer li {
 }
 
 .filters {
+  position: relative;
+  z-index: -10;
   background-color: rgba(239, 239, 239, 1);
   margin-right: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  /*outline: 1px  solid darkblue;*/
 }
 .filters-button {
   width: 200px;
   margin: auto;
   margin-top: 30px;
+}
+
+.button-container {
+  position: relative;
+}
+
+.button-container .yellow-string {
+  left: -5px;
+  top: 40px;
 }
 
 .catalog-list {
