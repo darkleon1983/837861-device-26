@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box; 
+}
+
+*, *::before, *::after { 
+  box-sizing: inherit;
+ }
+
 body {
   padding: 0;
   padding: 0 20px;
@@ -8,16 +16,23 @@ body {
   font-weight: 700;
   color: rgba(0, 0, 0, 1);
   text-transform: uppercase;
-
   background-color: rgba(255, 255, 255, 1);
+
 }
 
 a {
   text-decoration: none;
 }
 
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
 .main-header {
   position: relative;
+  display: flex;
+  justify-content: cente;
 }
 
 .header-logo {
@@ -31,6 +46,7 @@ a {
 }
 
 .main-navigation {
+  position: relative;
   display: block;
   width: 1160px;
   min-height: 300px;
@@ -136,6 +152,12 @@ a {
   color: rgba(105, 105, 105, 1);
 }
 
+.galery-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .galery dt {
   font-family: 'Gilroy', Arial, sans-serif;
   font-weight: 300;
@@ -155,10 +177,35 @@ a {
   line-height: 56px;
   font-size: 47px;
   text-transform: none;
+  /*outline: 1px solid brown;*/
+}
+
+.slide {
+  position: relative;
+  display: flex;
+  /*outline: 1px solid green;*/
+  margin: -100px;
+  z-index: 500;
 }
 
 .slide a {
   color:  rgba(0, 0, 0, 1);
+}
+
+.slide p {
+  margin: 0;
+}
+.slide dd {
+  margin-left: 0;
+}
+
+.slide-item {
+  width: 520px;
+  /*outline: 1px solid blue;*/
+}
+.text {
+  padding-top: 70px;
+  padding-bottom: 0;
 }
 
 .slide-description {
@@ -167,6 +214,29 @@ a {
   line-height: 30px;
   font-size: 15px;
   color: rgba(70, 70, 70, 1);
+  /*outline: 1px solid blue;*/
+}
+.slider-navigation {
+  display: flex;
+}
+
+.galery-list {
+  display: flex;
+  justify-content: space-between;
+  /*outline: 1px solid yellow;*/
+}
+
+.dots-container {
+  display: flex; 
+  justify-content: flex-start;
+  min-width: 100px;
+}
+
+.dots-navigators {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid gray;
 }
 
 .brands {
@@ -187,6 +257,7 @@ a {
   /*outline: 1px solid yellow;*/
   display: flex;
   justify-content: space-between;
+  margin-top: 200px;
 }
 
 .category-item {
@@ -203,7 +274,7 @@ a {
 
 .services-container {
   margin-top: 180px;
-  /*background-color: rgba(229, 229, 229, 1);*/
+  background-color: rgba(229, 229, 229, 1);
   background-image: url("../img/services-background.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -314,7 +385,9 @@ footer li {
 }
 
 .footer-container {
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
   padding: 0;
   width: 1320px;
   font-family: 'OpenSans', Arial, sans-serif;
@@ -529,6 +602,7 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 
 @font-face {
   font-family: 'Gilroy';
